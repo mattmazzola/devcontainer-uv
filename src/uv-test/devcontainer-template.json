@@ -1,0 +1,22 @@
+{
+    "id": "UV-test",
+    "version": "1.0.0",
+    "name": "UV Test",
+    "description": "A .devcontainer template for UV python projects",
+    "licenseURL": "https://github.com/mattmazzola/devcontainer-uv/blob/main/LICENSE",
+    "options": {
+        "favorite": {
+            "type": "string",
+            "description": "Choose your favorite color.",
+            "proposals": [
+                "red",
+                "gold",
+                "green"
+            ],
+            "default": "red"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
