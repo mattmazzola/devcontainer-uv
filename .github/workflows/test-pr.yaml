@@ -1,6 +1,6 @@
 name: "CI - Test Templates"
 on:
-  pull_request:
+  push:
 
 jobs:
   detect-changes:
@@ -12,6 +12,8 @@ jobs:
         id: filter
         with:
           filters: |
+            color: ./**/color/**
+            hello: ./**/hello/**
             uvtest: ./**/uvtest/**
 
   test:
