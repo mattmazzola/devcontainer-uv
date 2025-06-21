@@ -12,7 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            uv-test: ./**/uv-test/**
+            uvtest: ./**/uvtest/**
 
   test:
     needs: [detect-changes]
